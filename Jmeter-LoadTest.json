@@ -2331,36 +2331,36 @@
         },
         {
           "current": {
-            "value": "${VAR_MEASUREMENT_NAME}",
-            "text": "${VAR_MEASUREMENT_NAME}"
+            "value": "jmeter",
+            "text": "jmeter"
           },
           "hide": 2,
           "label": "Measurement name",
           "name": "measurement_name",
           "options": [
             {
-              "value": "${VAR_MEASUREMENT_NAME}",
-              "text": "${VAR_MEASUREMENT_NAME}"
+              "value": "jmeter",
+              "text": "jmeter"
             }
           ],
-          "query": "${VAR_MEASUREMENT_NAME}",
+          "query": "jmeter",
           "type": "constant"
         },
         {
           "current": {
-            "value": "${VAR_SEND_INTERVAL}",
-            "text": "${VAR_SEND_INTERVAL}"
+            "value": "5",
+            "text": "5"
           },
           "hide": 2,
           "label": "Backend send interval in second",
           "name": "send_interval",
           "options": [
             {
-              "value": "${VAR_SEND_INTERVAL}",
-              "text": "${VAR_SEND_INTERVAL}"
+              "value": "5",
+              "text": "5"
             }
           ],
-          "query": "${VAR_SEND_INTERVAL}",
+          "query": "5",
           "type": "constant"
         }
       ]
