@@ -1,28 +1,4 @@
 {
-    "__inputs": [
-      {
-        "name": "VAR_MEASUREMENT_NAME",
-        "type": "constant",
-        "label": "Measurement name",
-        "value": "jmeter",
-        "description": ""
-      },
-      {
-        "name": "VAR_SEND_INTERVAL",
-        "type": "constant",
-        "label": "Backend send interval in second",
-        "value": "5",
-        "description": ""
-      },
-      {
-        "name": "DS_JMETER",
-        "label": "jmeter",
-        "description": "",
-        "type": "datasource",
-        "pluginId": "influxdb",
-        "pluginName": "InfluxDB"
-      }
-    ],
     "__requires": [
       {
         "type": "grafana",
